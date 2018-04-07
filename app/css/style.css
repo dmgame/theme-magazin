@@ -1,13 +1,3 @@
 
 
-.btn {
-    display: inline-block;
-}
 
-.btn.btn-default {
-    background-color: #fff;
-}
-.someclass {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-}
