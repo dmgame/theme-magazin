@@ -1,0 +1,17 @@
+.card {
+    border-radius: 0;
+    border-color: #d9e0e3;
+}
+.card .card-img img{
+    width: 100%;
+}
+.card .card-info {
+    border-bottom: 1px solid #d9e0e3;
+}
+.card.large-card .card-info {
+    padding: 25px 30px 15px;
+}
+
+.card.large-card .card-author {
+    padding: 20px 30px;
+}

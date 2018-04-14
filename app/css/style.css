@@ -1,9 +1,143 @@
 
-
-
+ul {
+    margin-bottom: 0;
+}
 input {
+    border: none;
+    outline: none;
+}
+
+.card {
+    border-radius: 0;
+    border-color: #d9e0e3;
+}
+.card .card-img img{
     width: 100%;
+}
+.card .card-info {
+    border-bottom: 1px solid #d9e0e3;
+}
+.card.large-card .card-info {
+    padding: 25px 30px 15px;
+}
+
+.card.large-card .card-author {
+    padding: 20px 30px;
+}
+.content-wrapper-bordered {
+    background-color: #fff;
+    border: 1px solid #dedede;
+}
+
+.content-wrapper-bordered .content-wrapper-title {
+    padding: 20px 34px;
+    color: #263238;
+    border-bottom: 1px solid #dedede;
+}
+
+.content-wrapper-bordered .content-wrapper-title h6 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.content-wrapper-bordered .content-wrapper-body {
+    padding: 30px 34px 80px;
+}
+.dropdown-basket .dropdown-item {
+    padding: 20px;
+}
+
+.jq-selectbox {
+    width: 100%;
+}
+.jq-selectbox__select {
+    height: 40px;
+    background: #f9f9f9;
+    border-color: #dedede;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0 40px 0 15px;
+    line-height: 40px;
+}
+
+.jq-selectbox__select:hover {
+    background: #f9f9f9;
+}
+
+.jq-selectbox__trigger {
+    border-left: none;
+    width: 40px;
+}
+
+.jq-selectbox__trigger-arrow {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-top-color: #000;
 }
 input {
     width: 100%;
+}
+
+#loginModal .modal-dialog {
+    max-width: 730px;
+}
+
+#loginModal .modal-content {
+    background-color: #8bc34a;
+    border-radius: 0;
+    border: none;
+    padding: 90px 30px 110px;
+}
+
+#loginModal .login-title {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+#loginModal form[name="login-form"] {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.login-form-control::-webkit-input-placeholder {color:#fff;}
+.login-form-control::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+.login-form-control:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+.login-form-control:-ms-input-placeholder      {color:#fff;}
+
+#loginModal .login-form-control {
+    background-color: #76ae36;
+    height: 43px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 40px;
+    width: 100%;
+}
+
+#loginModal .login-form-group {
+    position: relative;
+}
+
+#loginModal .login-form-group + .login-form-group {
+    margin-top: 8px;
+}
+
+#loginModal .login-form-group i {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 18px;
+    color: #fff;
+}
+.form-example {
+    padding: 80px 0;
+    background-color: #f4f6f5;
 }

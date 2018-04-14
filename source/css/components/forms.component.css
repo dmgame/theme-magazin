@@ -1,3 +1,28 @@
-input {
+.jq-selectbox {
     width: 100%;
+}
+.jq-selectbox__select {
+    height: 40px;
+    background: #f9f9f9;
+    border-color: #dedede;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0 40px 0 15px;
+    line-height: 40px;
+}
+
+.jq-selectbox__select:hover {
+    background: #f9f9f9;
+}
+
+.jq-selectbox__trigger {
+    border-left: none;
+    width: 40px;
+}
+
+.jq-selectbox__trigger-arrow {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-color: #000;
 }
