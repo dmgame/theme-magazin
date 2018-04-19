@@ -1,0 +1,36 @@
+.ui-widget.ui-widget-content {
+    height: 5px;
+    border: none;
+    background-color: #f2f5f8;
+    border-radius: 5px;
+    margin-bottom: 62px;
+}
+
+.ui-slider .ui-slider-range {
+    background-color: #37474f;
+}
+
+.ui-slider .min-value,
+.ui-slider .max-value{
+    position: absolute;
+    top: 28px;
+    color: #78909c;
+    font-size: 15px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.ui-slider .ui-state-default.ui-slider-handle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid #8bc34a;
+    background-color: #fff;
+}
+
+.sort-controls {
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}

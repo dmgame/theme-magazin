@@ -1,0 +1,19 @@
+/*-----aside start-----*/
+.aside-section {
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    padding: 18px 27px 30px;
+    margin-bottom: 30px;
+}
+.aside-section .aside-section-title {
+    border-bottom: 1px solid #dde3e8;
+    font: 700 20px 'Roboto', sans-serif;
+    color: #263238;
+    line-height: 0.6em;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.aside-section .aside-section-title span {
+    display: inline-block;
+}
+/*-----aside start-----*/
